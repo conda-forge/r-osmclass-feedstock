@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/osmclass_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/osmclass/osmclass_{{ version }}.tar.gz
-  sha256: 42637e2396d3a9aa234a04f0406fc1e83ab914c1762069d1f1757f15879edc30
+  sha256: 258827eefc9444a7dadaefa7b647a09b65b8100da0373685cb9098681f2c98f3
 
 build:
   number: 0
